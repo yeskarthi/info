@@ -1,0 +1,131 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% Page layout
+\geometry{left=1in, right=1in, top=0.8in, bottom=0.8in}
+
+% Remove default page numbers
+\pagestyle{empty}
+
+% Customize section headers (all black now)
+\titleformat{\section}{\large\bfseries\color{black}}{}{0em}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+% Customize itemize
+\setlist[itemize]{leftmargin=*,itemsep=2pt,parsep=0pt}
+
+% Custom commands for contact info
+\newcommand{\contactinfo}[3]{\faPhone~#1 \quad \faEnvelope~\href{mailto:#2}{#2} \quad \faMapMarker*~#3}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{Karthikeyan Sugumaran}} \\
+    \vspace{5pt}
+    \contactinfo{+91 9008889204}{yeskarthi@gmail.com}{} \\
+    \faLinkedin\ \href{https://www.linkedin.com/in/yeskarthi/}{linkedin.com/in/yeskarthi} \\
+    \vspace{10pt}
+\end{center}
+
+% Horizontal line
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{10pt}
+
+
+
+% Professional Summary
+\section*{Professional Summary}
+\begin{flushleft}
+    Wireless LAN technology leader with over 24 years of experience at Qualcomm, Atheros, Broadcom, Athenasemi, and Telesilikon. Expertise in 802.11 standards, chip definition, silicon bring-up, software design, device drivers, firmware, and customer feature delivery. Specialized in WLAN product design for access points, scan radios, and stations across enterprise, retail, and carrier segments. 
+
+    \mbox{} \\
+
+    Recent focus on integrating AI and machine learning into Wi-Fi solutions to enhance network performance, predictive diagnostics, and anomaly detection. Successfully led product definition, engineering, and cross-functional teams across hardware, software, and verification groups, delivering high-volume WLAN solutions globally.
+\end{flushleft}
+
+\mbox{} \\
+
+% Core Skills
+\section*{Core Skills}
+\begin{itemize}
+    \item \textbf{Wireless}: 802.11 (a–bn), Bluetooth, Coexistence
+    \item \textbf{WLAN Product Design}: Access points, scan radios, stations (Enterprise, Retail, Carrier)
+    \item \textbf{Product Leadership}: Definition, engineering, roadmap execution
+    \item \textbf{People Management}: Leading high-performing teams, mentoring engineers
+    \item \textbf{Cross-Functional Collaboration}: HW/SW integration, global teams, multi-geo delivery
+    \item \textbf{Embedded Systems}: Device drivers, firmware, system integration
+    \item \textbf{Platforms}: Linux kernel \& user space, networking protocols (TCP/IP)
+    \item \textbf{Programming Languages}: C, Python, Shell
+    \item \textbf{Software Development Methodologies}: Agile, Waterfall, Iterative, etc.
+    \item \textbf{Emerging Technologies}: Wi-Fi + AI/ML solutions for network optimization and analytics
+\end{itemize}
+
+\mbox{} \\
+
+% Work Experience Summary
+\section*{Work Experience Summary}
+\begin{flushleft}
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\textwidth}{@{} l l X @{}}
+\textbf{Company} & \textbf{Period} & \textbf{Role} \\
+\hline
+Qualcomm India Private Limited & 2011--Present & Sr. Staff Engineer \\
+Atheros LLC India Private Limited & 2008--2011 & Lead Engineer \\
+Broadcom India Private Limited & 2005--2008 & Sr. Staff Engineer \\
+AthenaSemi & 2002--2005 & Sr. Firmware Engineer \\
+TeleSilkin & 2000--2002 & Firmware Engineer \\
+A.D.E & 1999--2001 & Contract Engineer \\
+\end{tabularx}
+\end{flushleft}
+
+\mbox{} \\
+
+% Experience
+\section*{Experience}
+\textbf{Senior Wireless Engineer \& Product Leader} \hfill 2001--Present \\
+\textit{Qualcomm | Atheros | Broadcom | Athenasemi | Telesilikon} \\
+\begin{itemize}
+    \item Defined product features and guided silicon-to-software development across multiple Wi-Fi generations, enabling successful product launches.
+    \item Built and managed high-performing engineering teams, fostering innovation and accountability, and drove programs from inception to successful completion.
+    \item Coordinated cross-functional hardware, software, and verification teams across geographies for aligned deliver
+    \item Designed WLAN solutions for access points, scan radios, and stations, addressing enterprise, retail, and carrier needs.
+    \item Developed AI/ML-enhanced Wi-Fi solutions, improving network performance, interference management, and predictive diagnostics.
+\end{itemize}
+
+\mbox{} \\
+
+% Achievements
+\section*{Achievements}
+\begin{itemize}
+    \item Contributed to WLAN evolution from 802.11a through 802.11bn.
+    \item Shipped multiple high-volume WLAN chipsets for global markets.
+    \item Drove customer-facing feature delivery and resolved complex field issues.
+    \item Applied AI/ML to Wi-Fi networks for traffic optimization and anomaly detection.
+    \item Successfully managed distributed cross-geo technical teams for product releases.
+\end{itemize}
+
+\mbox{} \\
+
+% Patents
+\section*{Patents}
+\begin{itemize}
+    \item \textsc{US20180027518A1} -- Proximity sensing using spectral analysis.
+    \item \textbf{(Filed)} -- Access Point (AP) spectral scan using neural networks (NN).
+\end{itemize}
+
+\mbox{} \\
+
+% Education
+\section*{Education}
+\textbf{B.E. Electronics and Communication Engineering} \hfill 1994--1998 \\
+\textit{Bangalore University}
+
+\end{document}
