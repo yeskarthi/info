@@ -7,6 +7,8 @@
 \usepackage{fontawesome5}
 \usepackage{xcolor}
 \usepackage{tabularx}
+\usepackage{fancyhdr}
+
 
 % Page layout
 \geometry{left=1in, right=1in, top=0.8in, bottom=0.8in}
@@ -127,5 +129,8 @@ A.D.E & 1999--2001 & Contract Engineer \\
 \section*{Education}
 \textbf{B.E. Electronics and Communication Engineering} \hfill 1994--1998 \\
 \textit{Bangalore University}
+
+\pagestyle{fancy}
+\fancyfoot[C]{\today} % Center footer with current date
 
 \end{document}
